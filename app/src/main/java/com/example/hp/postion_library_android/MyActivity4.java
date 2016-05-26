@@ -30,6 +30,7 @@ public class MyActivity4 extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my4);
+
         SwipeBackHelper.onCreate(this);
         SwipeBackHelper.getCurrentPage(this)//获取当前页面
                 .setSwipeBackEnable(true)//设置是否可滑动
